@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_update_"
+    android:layout_width="match_parent"
+    android:paddingLeft="5dp"
+    android:background="@color/darkGray"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingRight="5dp"
+    android:layout_height="match_parent"
+    tools:context="com.fundu.kapil.myapp.Update_Activity">
+    <TextView
+        android:text="Update Formula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_tag"
+        android:padding="3dp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:background="@drawable/lower_rounded_container"/>
+    <Spinner
+        android:text="TAG"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/year"
+        android:id="@+id/spinner"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <EditText
+        android:text="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/tv_title"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:background="@color/year" />
+
+    <EditText
+        android:text="Formula"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_data"
+        android:background="@color/year"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="54dp"
+        android:id="@+id/do_btn_save"
+        android:onClick="do_btn_save"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_container" />
+
+
+
+</LinearLayout>

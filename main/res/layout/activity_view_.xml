@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context="com.fundu.kapil.myapp.View_Activity">
+
+    <TextView
+        android:text="TAG"
+        android:background="@drawable/lower_rounded_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tv_tag"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:text="Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/tv_title"
+        android:layout_below="@+id/tv_tag"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:fontFamily="casual"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/tv_tag"
+        android:padding="10dp"
+        android:background="@drawable/rounded_container"/>
+
+    <TextView
+        android:text="Formula"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_container"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignStart="@+id/tv_tag"
+        android:layout_marginTop="29dp"
+        android:id="@+id/tv_data"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="Share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/tv_data"
+        android:layout_marginBottom="54dp"
+        android:id="@+id/button3"
+        android:onClick="do_btn_share"
+        android:padding="10dp"
+        android:background="@drawable/rounded_container"/>
+
+    <Button
+        android:text="delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button6"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button7"
+        android:onClick="do_btn_delete"
+        android:padding="10dp"
+        android:background="@drawable/rounded_container"/>
+
+    <Button
+        android:text="update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:onClick="do_btn_update"
+        android:padding="10dp"
+        android:background="@drawable/rounded_container" />
+
+</RelativeLayout>
