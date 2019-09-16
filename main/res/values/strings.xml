@@ -1,9 +1,38 @@
 <resources>
-    <string name="app_name">Myapp</string>
-    <string-array name="tag_list">
-        <item>Trignometry</item>
-        <item>Diffrential</item>
-        <item>Intigration</item>
-        <item>Probability</item>
-    </string-array>
+    <!-- app name -->
+    <string name="app_name">PW</string>
+
+    <!-- ads PW -->
+
+
+    <string name="app_Id">ca-app-pub-2940445491035976~1583085117</string>
+    <string name="banner_addId_1">ca-app-pub-2940445491035976/2494412347</string>
+    <string name="banner_addId_3">ca-app-pub-2940445491035976/8493269511</string>
+    <string name="interstitial_addId">ca-app-pub-2940445491035976/5535508655</string>
+    <string name="rewarded_addId">ca-app-pub-2940445491035976/9419338375</string>
+
+
+    <!--<string name="app_Id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--<string name="interstitial_addId">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--<string name="banner_addId_1">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="banner_addId_3">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="rewarded_addId">ca-app-pub-3940256099942544/5224354917</string>-->
+
+
+    <!--    Image url : when No image is there    -->
+    <string name="no_img_url">http://www.mikebiotech.com/wp-content/uploads/2016/11/noimage.jpg</string>
+
+    <!--   Tags    -->
+    <string name="tag_0">home</string>
+    <string name="tag_1">a1</string>
+    <string name="tag_2">a2</string>
+    <string name="tag_3">a3</string>
+
+
+    <!--    Notification Text   -->
+    <string name="scheduled_notification_title">New Work is added now.</string>
+    <string name="scheduled_notification_text">Click here to check</string>
+    <string name="scheduled_notification_info">PW</string>
+
+
 </resources>

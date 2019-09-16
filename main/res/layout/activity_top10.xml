@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".HomeActivity">
+    tools:context=".Top10Activity">
 
 
     <android.support.v7.widget.RecyclerView
@@ -15,10 +15,8 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 
@@ -129,83 +127,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/rounded_corner2"
-
-        android:fontFamily="sans-serif"
-        android:onClick="do_othersites"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Other Sites"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        android:textStyle="bold"
-
-
-        app:layout_constraintBottom_toTopOf="@+id/adview"
-        app:layout_constraintStart_toStartOf="parent" />
-
-
-    <Button
-        android:id="@+id/btn_isNewVersion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="2dp"
-        android:background="@drawable/rounded_corner2"
-
-        android:fontFamily="sans-serif"
-        android:onClick="do_isNewVersion"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="New Version"
-        android:textColor="@color/white"
-
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:visibility="gone"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintStart_toStartOf="parent" />
-
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginBottom="2dp"
-        android:background="@drawable/rounded_corner3"
-        android:fontFamily="sans-serif"
-        android:onClick="do_complain"
-
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="Complain"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        android:textStyle="bold"
-
-
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/rounded_corner3"
         android:fontFamily="sans-serif"
-        android:onClick="do_share"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:onClick="do_share2"
         android:text="share"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold"
-
-
         app:layout_constraintBottom_toTopOf="@+id/adview"
         app:layout_constraintEnd_toEndOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#525b56</color>
-    <color name="colorPrimaryDark">#525b56</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="year">#999999</color>
-    <color name="title">#222222</color>
+    <color name="colorPrimary">#2a2a2a</color>
+    <color name="colorPrimaryDark">#3f3f3f</color>
+    <color name="colorAccent">#941812</color>
 
-    <color name="black">#040c0e</color>
-    <color name="darkGray">#132226</color>
-    <color name="gray">#525b56</color>
-    <color name="orange">#be9063</color>
-    <color name="lightGray">#a4978e</color>
+    <color name="colorDarkGray">#2a2a2a</color>
+    <color name="colorGray">#3f3f3f</color>
+
+    <color name="colorDullWhite">#d3d3d3</color>
+    <color name="colorLightGray">#a8a8a8</color>
+
+
+
+    <color name="mine_shaft">#efc5ca</color>
+
+
+
 </resources>
